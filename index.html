@@ -487,19 +487,20 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="modal__field">
-                    <label for="feedback" class="modal__label">Комментарий</label>
-                    <textarea 
-                    type="text" 
-                    class="modal__input modal__textarea" 
-                    name="feedback" 
-                    placeholder="Введите текст" 
-                    id="feedback"
-                    rows="5" 
-                    ></textarea>
+                        <div class="modal__field">
+                        <label for="feedback" class="modal__label">Комментарий</label>
+                        <textarea 
+                        type="text" 
+                        class="modal__input modal__textarea" 
+                        name="feedback" 
+                        placeholder="Введите текст" 
+                        id="feedback"
+                        rows="5" 
+                        ></textarea>
                     </div>
                         
                     <div class="modal__field">
+                        <label class="check-text">
                         <input 
                         type="checkbox"
                         class="input-check visually-hidden"
@@ -508,12 +509,12 @@
                         id="input-check"
                         >
                         <span class="icon-check-wrap">
-                            <svg width="16px" height="15px" class="icon-check">
-                                <use href="./images/icons.svg#icon-icon-check" ></use>
+                            <svg width="15px" height="15px" class="icon-check">
+                                <use href="./images/icons.svg#icon-check" ></use>
                             </svg>
                         </span>
-                        
-                        <label for="input-check" class="check-text">Соглашаюсь с рассылкой и принимаю <a href="#" class="confirmation-link">Условия договора</a></label>
+                        Соглашаюсь с рассылкой и принимаю <a href="#" class="confirmation-link">Условия договора</a>
+                        </label>
                     </div>
                         
                         <button type="submit" class="btn btn__submit__modal">Отправить</button>
@@ -587,8 +588,8 @@
 
             <div class="subs">
                 <h3 class="footer-title">Подпишитесь на рассылку</h3>
-               <form>
-                   <label for="">
+               <form class="footer-form">
+                   <label>
                     <input type="text" name="mail" placeholder="E-mail" class="footer-mail-input">
                     </label>
                     <button type="submit" class="btn send-btn">
