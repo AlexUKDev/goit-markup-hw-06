@@ -803,7 +803,6 @@ ul {
 .modal__title{
   line-height: 23px;
   text-align: center;
-  letter-spacing: 0.03em;
 
   margin-bottom: 12px;
   font-size: 20px;
@@ -858,6 +857,8 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__textarea {
+  margin-bottom: 20px;
+
   display: block;
   height: 120px;
 
